@@ -7,3 +7,7 @@ A basic web portal to find an innovative solution to bridge the gap between the 
 🐄	A backend database to maintain customer records and sales information [Using SQL]
 
 🐄	Connected using Django framework.
+
+![This is an image](https://github.com/Mahima-Anand/TOYCATHON---VEDAYUR-BOARD-GAME/blob/main/OUTPUT/TOY.png)
+![This is an image](https://github.com/Mahima-Anand/TOYCATHON---VEDAYUR-BOARD-GAME/blob/main/OUTPUT/TOY.png)
+![This is an image](https://github.com/Mahima-Anand/TOYCATHON---VEDAYUR-BOARD-GAME/blob/main/OUTPUT/TOY.png)
