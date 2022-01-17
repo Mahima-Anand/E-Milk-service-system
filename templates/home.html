@@ -1,0 +1,79 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+
+{% load staticfiles %}
+{% block content %}
+
+<style>
+h1,h5,h2,h3{
+font-family: 'Dancing Script', cursive;
+}
+h3{
+font-family: 'Dancing Script', cursive;
+font-size:40px;
+}
+h4{
+font-family: 'Dancing Script', cursive;
+font-size:27.5px;
+color:rgba(13, 60, 216, 0.822)
+}
+.left-side{
+
+    background-image: url("{% static 'images\cow4.png' %}");
+
+
+}
+
+</style>
+{% comment %} <style>
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  text-align:right;
+  color:white;
+}
+</style> {% endcomment %}
+
+{% comment %} <img src="{% static '\images\cow_banner.jpg' %}" class="img-fluid" alt="Responsive image"> {% endcomment %}
+{% comment %} <p>
+    <strong>Total users registered: </strong> {{ count }}
+  </p> {% endcomment %}
+
+
+
+
+
+
+<div class="row">
+  <div class="col-8 left-side">
+                 <!-- {% if user.is_authenticated and user.profile.user_type == 'Manager' %}
+
+                <h2>{{ user.profile.user_type }} Name == {{ user.username }}</h2>
+                <h5> Email id :{{ user.email}}</h5>
+                <h5> Contact Number :{{ user.profile.contact_number}}</h5>
+
+              {% endif %}
+
+                {% if user.is_authenticated and user.profile.user_type == 'Customer' %}
+                <h1>{{ user.profile.user_type }} Name == {{ user.username }}</h1>
+                 <h5> Email id :{{ user.email}}</h5>
+                <h5> Contact Number :{{ user.profile.contact_number}}</h5>
+
+              {% endif %} -->
+  </div>
+
+
+
+
+
+
+
+  <div class="col-4">
+
+<h3><storng>About Us</strong></h3>
+   <h4><strong>50 years back, life was very simple. We used to have a cow in our backyard that gave us natural and fresh milk everyday. There was never a need to worry about adulteration since we owned the animal. Today, the milk we consume is either reconstituted/recombined with milk powder or takes days to reach our home post milking which is prone to adulteration.</strong></h4>
+   <h4><strong>Started in 2015, Milkman aims to bring back the basics of Milk. We promise natural, fresh and unadulterated milk directly to the doorstep of the consumer. Consumer ordering and servicing happens through a website that completely takes away the hassle of managing ones milk requirements.</strong></h4>
+
+
+  {% endblock %}
