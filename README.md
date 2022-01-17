@@ -12,4 +12,4 @@ A basic web portal to find an innovative solution to bridge the gap between the 
 ![This is an image](https://github.com/Mahima-Anand/E-Milk-service-system/blob/main/Output/Home_page.png)
 ![This is an image](https://github.com/Mahima-Anand/E-Milk-service-system/blob/main/Output/Login.png)
 ![This is an image](https://github.com/Mahima-Anand/E-Milk-service-system/blob/main/Output/Features.png)
-![This is an image](https://github.com/Mahima-Anand/E-Milk-service-system/blob/main/Output/DB_Manipulation.png)
+![This is an image](https://github.com/Mahima-Anand/E-Milk-service-system/blob/main/Output/DB_manipulation.png)
